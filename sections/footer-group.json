@@ -92,10 +92,11 @@
         "newsletter": {
           "type": "newsletter",
           "settings": {
-            "image_width": 150,
+            "image": "shopify://shop_images/LOGO_5.svg",
+            "image_width": 180,
             "heading_size": "h5",
-            "title": "Rejoignez la meute 🐾 et recevez des nouvelles des chiens que vous aidez",
-            "content": ""
+            "title": "",
+            "content": "<p>Rejoignez la meute 🐾 et recevez des nouvelles des chiens que vous aidez</p>"
           }
         },
         "links": {
