@@ -117,8 +117,8 @@
         "text": {
           "type": "text",
           "settings": {
-            "title": "About",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>",
+            "title": "Pattes Unies – by Ryna",
+            "content": "<p>Une patte tendue mérite une main ouverte : ensemble, nous aidons les chiens à trouver un avenir meilleur.</p>",
             "enable_follow_on_shop": true
           }
         }
