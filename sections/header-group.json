@@ -17,13 +17,21 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "Announce something here",
+            "text": "100% transparent : vos dons reversés aux refuges 🐶",
+            "url": ""
+          }
+        },
+        "message_7HnKeT": {
+          "type": "message",
+          "settings": {
+            "text": "Rejoignez la meute ❤️ chaque bracelet sauve une patte",
             "url": ""
           }
         }
       },
       "block_order": [
-        "message"
+        "message",
+        "message_7HnKeT"
       ],
       "settings": {
         "enable_sticky": false,
