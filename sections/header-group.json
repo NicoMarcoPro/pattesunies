@@ -50,7 +50,7 @@
       "type": "header",
       "settings": {
         "enable_sticky": true,
-        "hide_on_scroll": false,
+        "hide_on_scroll": true,
         "logo": "shopify://shop_images/LOGO_5.svg",
         "logo_max_width": 205,
         "logo_mobile_max_width": 170,
