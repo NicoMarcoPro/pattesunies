@@ -313,12 +313,75 @@
         "alternate_media_position": false,
         "spacing": "small"
       }
+    },
+    "multi_column_rPaee8": {
+      "type": "multi-column",
+      "blocks": {
+        "item_y3zF8T": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/DSC00165.jpg",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_VnKAdp": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/DSC00165.jpg",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_Lbw38f": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/DSC00165.jpg",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_y3zF8T",
+        "item_VnKAdp",
+        "item_Lbw38f"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
     "main",
     "related-products",
     "media_with_text_ie6j3W",
-    "media_with_text_WBVLRN"
+    "media_with_text_WBVLRN",
+    "multi_column_rPaee8"
   ]
 }
