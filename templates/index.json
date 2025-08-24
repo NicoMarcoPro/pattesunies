@@ -15,24 +15,24 @@
         "subheading_Jz96in": {
           "type": "subheading",
           "settings": {
-            "text": "Subheading"
+            "text": "Inspiré par Ryna, pour tous les chiens oubliés"
           }
         },
         "heading_EQGjQW": {
           "type": "heading",
           "settings": {
-            "text": "Heading",
+            "text": "Chaque bracelet sauve une patte",
             "heading_tag": "h1"
           }
         },
         "button_UGKxYY": {
           "type": "button",
           "settings": {
-            "style": "outline",
+            "style": "fill",
             "size": "lg",
-            "text": "Button text",
+            "text": "Je soutiens un chien",
             "url": "",
-            "background": "",
+            "background": "#f78e1a",
             "text_color": "#ffffff"
           }
         }
