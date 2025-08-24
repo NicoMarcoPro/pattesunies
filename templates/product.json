@@ -12,6 +12,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "liquid_FHitQt": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<a href=\"#shopify-section-template--20012964675850__trustpilot_7FTrR8\">\n  <div class=\"product-infoliquid\" style=\"display: flex; align-items: center; margin-top: 0px; margin-bottom: -10px\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0776/3751/7627/files/avis.png?v=1687213619\" alt=\"\" width=\"80\" height=\"30\" style=\"margin-right: 10px;\">\n    <b>Noté 4,8/5 par 3&nbsp;500+ patients</b>\n  </div>\n</a>"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -191,6 +197,7 @@
         }
       },
       "block_order": [
+        "liquid_FHitQt",
         "title",
         "liquid_LQRNEd",
         "badges",
