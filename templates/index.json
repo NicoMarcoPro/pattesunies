@@ -55,6 +55,55 @@
         "overlay_opacity": 20
       }
     },
+    "impact_text_8LFzzU": {
+      "type": "impact-text",
+      "blocks": {
+        "item_Ekwfz6": {
+          "type": "item",
+          "settings": {
+            "title": "100 000",
+            "subheading": "chiens abandonnés par an 🐶",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "item_eAegma": {
+          "type": "item",
+          "settings": {
+            "title": "33",
+            "subheading": "animaux abandonnés chaque heure ⏰",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_Ekwfz6",
+        "item_eAegma"
+      ],
+      "name": "Impact text",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -192,6 +241,7 @@
   },
   "order": [
     "video_7KjMqF",
+    "impact_text_8LFzzU",
     "slideshow",
     "press",
     "faq"
