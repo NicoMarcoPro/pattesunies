@@ -11,6 +11,37 @@
   "sections": {
     "video_7KjMqF": {
       "type": "video",
+      "blocks": {
+        "subheading_Jz96in": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_EQGjQW": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1"
+          }
+        },
+        "button_UGKxYY": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "size": "lg",
+            "text": "Button text",
+            "url": "",
+            "background": "",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Jz96in",
+        "heading_EQGjQW",
+        "button_UGKxYY"
+      ],
       "name": "Video",
       "settings": {
         "full_width": true,
