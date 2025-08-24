@@ -15,13 +15,13 @@
         "subheading_Jz96in": {
           "type": "subheading",
           "settings": {
-            "text": "Inspiré par Ryna, pour tous les chiens oubliés"
+            "text": "Rejoignez la meute, agissez avec nous"
           }
         },
         "heading_EQGjQW": {
           "type": "heading",
           "settings": {
-            "text": "Chaque bracelet sauve une patte",
+            "text": "Unis pour protéger les chiens",
             "heading_tag": "h1"
           }
         },
@@ -30,7 +30,7 @@
           "settings": {
             "style": "fill",
             "size": "lg",
-            "text": "Je soutiens un chien",
+            "text": "Je rejoins la meute",
             "url": "",
             "background": "#f78e1a",
             "text_color": "#ffffff"
