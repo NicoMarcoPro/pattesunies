@@ -9,6 +9,48 @@
  */
 {
   "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "video_eze9Kj": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/videositeban.mp4",
+            "mobile_video": "shopify://files/videos/videositeban.mp4",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_eze9Kj"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "show_initial_transition": false,
+        "image_size": "md",
+        "controls_type": "numbers",
+        "transition_type": "fade_with_text",
+        "autoplay": true,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
+      }
+    },
     "video_7KjMqF": {
       "type": "video",
       "blocks": {
@@ -42,6 +84,7 @@
         "heading_EQGjQW",
         "button_UGKxYY"
       ],
+      "disabled": true,
       "name": "Video",
       "settings": {
         "full_width": true,
@@ -49,6 +92,7 @@
         "autoplay": true,
         "video_size": "auto",
         "video": "shopify://files/videos/videositeban.mp4",
+        "mobile_video": "shopify://files/videos/videositeban.mp4",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
@@ -143,48 +187,6 @@
         "text_color": "#ffffff",
         "button_background": "",
         "button_text_color": ""
-      }
-    },
-    "slideshow": {
-      "type": "slideshow",
-      "blocks": {
-        "video_eze9Kj": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/videositeban.mp4",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "video_eze9Kj"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "show_initial_transition": false,
-        "image_size": "md",
-        "controls_type": "numbers",
-        "transition_type": "fade_with_text",
-        "autoplay": true,
-        "cycle_speed": 6,
-        "background": "#f2f2f2",
-        "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
     "media_with_text_JLU8em": {
@@ -339,11 +341,11 @@
     }
   },
   "order": [
+    "slideshow",
     "video_7KjMqF",
     "custom_liquid_rHMLP7",
     "custom_liquid_DPLHxM",
     "impact_text_8LFzzU",
-    "slideshow",
     "media_with_text_JLU8em",
     "custom_liquid_tpPRtk",
     "custom_liquid_3KP7xX",
