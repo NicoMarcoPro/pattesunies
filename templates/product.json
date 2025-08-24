@@ -344,6 +344,7 @@
       "block_order": [
         "image_hn6EyB"
       ],
+      "disabled": true,
       "name": "Media with text",
       "settings": {
         "full_width": false,
