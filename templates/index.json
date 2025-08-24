@@ -83,6 +83,18 @@
             "animate_impact_text_duration": 2
           }
         },
+        "item_bieyAG": {
+          "type": "item",
+          "settings": {
+            "title": "100%",
+            "subheading": "Showcase a benefit of your product",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        },
         "item_eAegma": {
           "type": "item",
           "settings": {
@@ -98,6 +110,7 @@
       },
       "block_order": [
         "item_Ekwfz6",
+        "item_bieyAG",
         "item_eAegma"
       ],
       "name": "Impact text",
@@ -108,11 +121,11 @@
         "impact_text_style": "fill",
         "text_divider": "none",
         "impact_text_size_ratio": 1,
-        "background": "",
+        "background": "#2e2e2e",
         "background_gradient": "",
-        "heading_text_color": "",
+        "heading_text_color": "#f78e1a",
         "heading_gradient": "",
-        "text_color": "",
+        "text_color": "#ffffff",
         "button_background": "",
         "button_text_color": ""
       }
