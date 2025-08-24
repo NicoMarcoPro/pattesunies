@@ -85,6 +85,12 @@
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
+        },
+        "liquid_Kp9Nee": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  .trust-badges{display:flex;gap:1rem;flex-wrap:wrap;margin:.5rem 0;color:#2d2d2d}\n  .trust-badges div{display:flex;gap:.45rem;align-items:center;background:#fff;border:1px solid #FFE1BD;border-radius:999px;padding:.45rem .7rem;font-weight:600}\n</style>\n<div class=\"trust-badges\">\n  <div>🔒 Paiement sécurisé</div>\n  <div>💶 Don tracé</div>\n  <div>↩️ Retours 30 jours</div>\n</div>"
+          }
         }
       },
       "block_order": [
@@ -99,7 +105,8 @@
         "description",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons"
+        "buy_buttons",
+        "liquid_Kp9Nee"
       ],
       "settings": {
         "full_width": true,
