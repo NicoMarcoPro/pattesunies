@@ -26,6 +26,7 @@
         },
         "liquid_LQRNEd": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<style>\n  .impact-line{display:flex;gap:.6rem;align-items:center;margin:.6rem 0 1rem}\n  .impact-dot{width:10px;height:10px;border-radius:50%;background:#F78E1A;box-shadow:0 0 0 4px rgba(247,142,26,.15)}\n  .impact-text{font-weight:700;color:#111}\n  .impact-proof a{color:#0B72E7;text-decoration:underline;text-underline-offset:2px}\n</style>\n<div class=\"impact-line\">\n  <span class=\"impact-dot\"></span>\n  <div>\n    <div class=\"impact-text\">1 bracelet = 1 repas offert 🐶</div>\n    <div class=\"impact-proof\">Dons publiés chaque mois —\n      <a href=\"/pages/preuves\">voir nos preuves</a>\n    </div>\n  </div>\n</div>"
           }
