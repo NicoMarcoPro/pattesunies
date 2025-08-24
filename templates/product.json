@@ -84,8 +84,54 @@
         },
         "liquid_Kp9Nee": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<style>\n  /* ===== Barre de garanties – style pro minimal ===== */\n  :root { --brand:#F78E1A; --ink:#111; --ink-2:#454545; --line:#EEE; }\n\n  .assurance-bar{\n    background:#fff;\n    border:1px solid var(--line);\n    border-radius:12px;\n    padding:.85rem 1rem;\n  }\n  .ab-row{\n    display:flex; align-items:center; justify-content:center;\n    gap:1.2rem; flex-wrap:wrap;\n  }\n  .ab-item{\n    display:inline-flex; align-items:center; gap:.55rem;\n    color:var(--ink); font-weight:800; letter-spacing:.2px;\n    line-height:1; padding:.25rem .4rem;\n  }\n  /* icône outline, pas de pastille */\n  .ab-icon{ width:18px; height:18px; }\n  .ab-icon svg{ width:18px; height:18px; stroke:var(--brand); stroke-width:2; fill:none; }\n\n  /* séparateur discret */\n  .ab-sep{\n    width:1px; height:20px; background:var(--line); opacity:.9;\n  }\n\n  /* Hover subtil (desktop) */\n  @media (hover:hover){\n    .ab-item:hover{ color:var(--ink-2); }\n    .ab-item:hover .ab-icon svg{ stroke:var(--brand); }\n  }\n\n  /* Mobile: on enlève les séparateurs et on resserre */\n  @media (max-width: 768px){\n    .ab-row{ gap:.6rem 1rem; }\n    .ab-sep{ display:none; }\n    .ab-item{ font-weight:800; }\n  }\n</style>\n\n<div class=\"assurance-bar\" role=\"group\" aria-label=\"Garanties Pattes Unies\">\n  <div class=\"ab-row\">\n    <div class=\"ab-item\">\n      <span class=\"ab-icon\" aria-hidden=\"true\">\n        <!-- lock -->\n        <svg viewBox=\"0 0 24 24\">\n          <path d=\"M7 10h10a2 2 0 012 2v6a2 2 0 01-2 2H7a2 2 0 01-2-2v-6a2 2 0 012-2Z\"/>\n          <path d=\"M8 10V7a4 4 0 118 0v3\"/>\n        </svg>\n      </span>\n      <span>Paiement sécurisé</span>\n    </div>\n\n    <span class=\"ab-sep\" aria-hidden=\"true\"></span>\n\n    <div class=\"ab-item\">\n      <span class=\"ab-icon\" aria-hidden=\"true\">\n        <!-- receipt/check -->\n        <svg viewBox=\"0 0 24 24\">\n          <path d=\"M6 3h9a3 3 0 013 3v15l-3-2-3 2-3-2-3 2V6a3 3 0 013-3Z\"/>\n          <path d=\"M8 8h7M8 12h7\"/>\n          <path d=\"M10 16l1.8 1.8L15 14.6\"/>\n        </svg>\n      </span>\n      <span>Don tracé</span>\n    </div>\n\n    <span class=\"ab-sep\" aria-hidden=\"true\"></span>\n\n    <div class=\"ab-item\">\n      <span class=\"ab-icon\" aria-hidden=\"true\">\n        <!-- returns -->\n        <svg viewBox=\"0 0 24 24\">\n          <path d=\"M12 5V3L7 7l5 4V9a6 6 0 110 12H7\"/>\n        </svg>\n      </span>\n      <span>Retours 30 jours</span>\n    </div>\n  </div>\n</div>"
+          }
+        },
+        "offer_FR386k": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-coupon",
+            "icon_width": 20,
+            "title": "Shipping",
+            "content": "<p>Short content about your shipping rates or discounts.</p>",
+            "background": "#eaf2ed",
+            "text_color": "#00a341"
+          }
+        },
+        "offer_nB3eTN": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-coupon",
+            "icon_width": 20,
+            "title": "Shipping",
+            "content": "<p>Short content about your shipping rates or discounts.</p>",
+            "background": "#eaf2ed",
+            "text_color": "#00a341"
+          }
+        },
+        "liquid_aXrnxz": {
+          "type": "liquid",
+          "settings": {
+            "liquid": ""
+          }
+        },
+        "offer_L6QTpL": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-coupon",
+            "icon_width": 20,
+            "title": "Shipping",
+            "content": "<p>Short content about your shipping rates or discounts.</p>",
+            "background": "#eaf2ed",
+            "text_color": "#00a341"
           }
         },
         "collapsible_text_8ieRcq": {
@@ -142,6 +188,10 @@
         "quantity_selector",
         "buy_buttons",
         "liquid_Kp9Nee",
+        "offer_FR386k",
+        "offer_nB3eTN",
+        "liquid_aXrnxz",
+        "offer_L6QTpL",
         "collapsible_text_8ieRcq",
         "collapsible_text_dQ7r8D",
         "collapsible_text_7HTYBX",
