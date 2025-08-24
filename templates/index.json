@@ -308,6 +308,19 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "custom_liquid_dWGnih": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n  /* Section Transparence */\n  .transparency-section {\n    background: #FFF9F3;\n    padding: 4rem 1.5rem;\n    text-align: center;\n  }\n\n  /* Titre */\n  .transparency-title-wrapper {\n    text-align: center;\n    margin: 0 0 2.5rem 0;\n  }\n  .transparency-title {\n    font-family: \"DIN Next\", sans-serif;\n    font-size: clamp(32px, 6vw, 56px);\n    font-weight: 700;\n    line-height: 1.2;\n    color: #111;\n    margin: 0;\n    position: relative;\n    display: inline-block;\n  }\n  .transparency-title .highlight {\n    color: #F78E1A;\n    position: relative;\n    z-index: 1;\n  }\n  .transparency-title .highlight::before {\n    content: '';\n    position: absolute;\n    left: -0.1em;\n    bottom: 0.05em;\n    width: 105%;\n    height: 0.35em;\n    background: #F78E1A;\n    border-radius: 3px;\n    opacity: 0.3;\n    z-index: -1;\n  }\n  .transparency-underline {\n    width: 60px;\n    height: 4px;\n    background-color: #F78E1A;\n    border-radius: 2px;\n    margin: 1rem auto 0 auto;\n  }\n\n  /* Texte intro */\n  .transparency-intro {\n    max-width: 700px;\n    margin: 1.5rem auto 3rem;\n    font-size: 1.05rem;\n    line-height: 1.6;\n    color: #333;\n  }\n\n  /* Icônes + colonnes */\n  .transparency-columns {\n    display: flex;\n    justify-content: center;\n    gap: 2rem;\n    flex-wrap: wrap;\n  }\n  .transparency-col {\n    background: #fff;\n    flex: 1;\n    min-width: 250px;\n    max-width: 300px;\n    padding: 2rem 1.2rem;\n    border-radius: 12px;\n    box-shadow: 0 4px 12px rgba(0,0,0,.06);\n    text-align: center;\n  }\n  .transparency-icon {\n    font-size: 2rem;\n    margin-bottom: 1rem;\n  }\n  .transparency-col p {\n    font-size: 1rem;\n    font-weight: 500;\n    color: #111;\n    margin: 0;\n  }\n</style>\n\n<section class=\"transparency-section\">\n  <div class=\"transparency-title-wrapper\">\n    <h2 class=\"transparency-title\">\n      100 % <span class=\"highlight\">transparent</span>, 100 % solidaire\n    </h2>\n    <div class=\"transparency-underline\"></div>\n  </div>\n\n  <p class=\"transparency-intro\">\n    Chez <strong>Pattes Unies</strong>, on ne fait pas de promesses vides.<br>\n    Chaque don est suivi, chaque euro est reversé aux refuges,<br>\n    et nous partageons régulièrement des preuves et témoignages des associations aidées.\n  </p>\n\n  <div class=\"transparency-columns\">\n    <div class=\"transparency-col\">\n      <div class=\"transparency-icon\">📦</div>\n      <p>Bracelets solidaires fabriqués avec soin</p>\n    </div>\n    <div class=\"transparency-col\">\n      <div class=\"transparency-icon\">💶</div>\n      <p>Dons reversés chaque mois aux refuges</p>\n    </div>\n    <div class=\"transparency-col\">\n      <div class=\"transparency-icon\">🐶</div>\n      <p>Témoignages et photos des chiens aidés</p>\n    </div>\n  </div>\n</section>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -319,6 +332,7 @@
     "custom_liquid_tpPRtk",
     "custom_liquid_3KP7xX",
     "multi_column_K3BfW3",
-    "custom_liquid_4QTP8W"
+    "custom_liquid_4QTP8W",
+    "custom_liquid_dWGnih"
   ]
 }
