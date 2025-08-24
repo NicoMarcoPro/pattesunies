@@ -88,8 +88,8 @@
       "name": "Video",
       "settings": {
         "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": false,
+        "allow_transparent_header": true,
+        "autoplay": true,
         "video_size": "lg",
         "video": "shopify://files/videos/videositeban.mp4",
         "mobile_video": "shopify://files/videos/videositeban.mp4",
