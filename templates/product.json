@@ -438,6 +438,19 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "custom_liquid_tBxQXm": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n  .impact-section {\n    background: #fffdfb;\n    padding: 5rem 2rem;\n    text-align: center;\n  }\n\n  .impact-title {\n    font-family: \"DIN Next\", sans-serif;\n    font-size: clamp(32px, 6vw, 54px);\n    font-weight: 700;\n    line-height: 1.2;\n    color: #111;\n    margin: 0 auto 1.5rem;\n    max-width: 900px;\n    position: relative;\n    display: inline-block;\n  }\n\n  .impact-title .highlight {\n    color: #F78E1A;\n    position: relative;\n    z-index: 1;\n  }\n\n  .impact-title .highlight::before {\n    content: '';\n    position: absolute;\n    left: -0.1em;\n    bottom: 0.05em;\n    width: 105%;\n    height: 0.35em;\n    background: #F78E1A;\n    border-radius: 3px;\n    opacity: .25;\n    z-index: -1;\n  }\n\n  .impact-desc {\n    font-size: 1.2rem;\n    line-height: 1.7;\n    color: #333;\n    max-width: 750px;\n    margin: 0 auto;\n  }\n\n  .impact-underline {\n    width: 70px;\n    height: 4px;\n    background-color: #F78E1A;\n    border-radius: 3px;\n    margin: 1.5rem auto 2.5rem;\n  }\n</style>\n\n<section class=\"impact-section\">\n  <h2 class=\"impact-title\">\n    100 000 <span class=\"highlight\">raisons d’agir</span>, une seule meute pour les sauver\n  </h2>\n  <div class=\"impact-underline\"></div>\n  <p class=\"impact-desc\">\n    Chaque chien abandonné mérite une seconde chance.<br>\n    Ensemble, on peut changer leur destin.\n  </p>\n</section>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -445,6 +458,7 @@
     "custom_liquid_4pN6Pa",
     "related-products",
     "media_with_text_ie6j3W",
+    "custom_liquid_tBxQXm",
     "custom_liquid_CFCdW7",
     "media_with_text_WBVLRN",
     "custom_liquid_c7P939",
