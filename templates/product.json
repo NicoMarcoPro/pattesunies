@@ -124,7 +124,7 @@
         "offer_L6QTpL": {
           "type": "offer",
           "settings": {
-            "text_alignment": "start",
+            "text_alignment": "center",
             "icon_position": "aligned",
             "icon": "picto-coupon",
             "icon_width": 20,
