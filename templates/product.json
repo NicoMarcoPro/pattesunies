@@ -97,6 +97,12 @@
             "payment_button_text_color": ""
           }
         },
+        "liquid_Xfpzhk": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  /* ===== Pattes Unies – Bloc Transparence (pro) ===== */\n  .pu-proof-card{\n    --pu-orange:#F78E1A;\n    --pu-cream:#FFF9F3;\n    --pu-border:#FDE4CC;\n\n    max-width: 720px;\n    margin: 10px auto 18px auto;\n    padding: 22px 22px;\n    background: linear-gradient(180deg, var(--pu-cream), #FFFFFF);\n    border: 1px solid var(--pu-border);\n    border-radius: 16px;\n    box-shadow: 0 6px 18px rgba(0,0,0,.05);\n    text-align: center;\n  }\n\n  /* Petit label en haut */\n  .pu-proof-pill{\n    display:inline-block;\n    font-size: 11px;\n    font-weight: 800;\n    letter-spacing:.08em;\n    color:#6b6b6b;\n    background:#fff;\n    border:1px solid var(--pu-border);\n    border-radius:999px;\n    padding:6px 10px;\n    margin-bottom:10px;\n  }\n\n  /* Titre fort avec soulignement orange subtil */\n  .pu-proof-title{\n    font-weight: 800;\n    font-size: 18px;\n    color:#111;\n    margin: 0 0 6px 0;\n    position: relative;\n    display:inline-block;\n  }\n  .pu-proof-title .hl{\n    position:relative;\n    z-index:1;\n  }\n  .pu-proof-title .hl::before{\n    content:'';\n    position:absolute;\n    left:-2px; right:-2px; bottom:2px;\n    height:.38em;\n    background: var(--pu-orange);\n    opacity:.28;\n    border-radius:3px;\n    z-index:-1;\n  }\n\n  /* Paragraphe */\n  .pu-proof-text{\n    margin: 0 auto;\n    max-width: 540px;\n    font-size: 15px;\n    line-height: 1.55;\n    color:#444;\n  }\n\n  /* Mini points de preuve (optionnels mais élégants) */\n  .pu-proof-bullets{\n    display:flex; gap:16px; justify-content:center; flex-wrap:wrap;\n    margin-top:12px;\n  }\n  .pu-proof-bullets span{\n    font-size:13px; color:#2c7a4b; background:#eaf7ef;\n    border:1px solid #d3f0df; border-radius:999px; padding:6px 10px;\n  }\n\n  /* Responsive fin */\n  @media (max-width:680px){\n    .pu-proof-card{ padding:18px 16px; }\n    .pu-proof-title{ font-size:16px; }\n    .pu-proof-text{ font-size:14px; }\n  }\n</style>\n\n<div class=\"pu-proof-card\">\n  <div class=\"pu-proof-pill\">TRANSPARENCE TOTALE</div>\n  <h3 class=\"pu-proof-title\">\n    <span class=\"hl\">Don tracé & 100&nbsp;% vérifiable</span>\n  </h3>\n  <p class=\"pu-proof-text\">\n    Chaque euro est reversé aux refuges partenaires, avec <strong>preuves</strong> et <strong>reçus publiés</strong> chaque mois.\n  </p>\n\n  <!-- Si tu préfères sans les puces, supprime le bloc ci-dessous -->\n  <div class=\"pu-proof-bullets\">\n    <span>Virements & reçus partagés</span>\n    <span>Montant reversé communiqué</span>\n    <span>Associations locales</span>\n  </div>\n</div>"
+          }
+        },
         "liquid_Kp9Nee": {
           "type": "liquid",
           "disabled": true,
@@ -106,6 +112,7 @@
         },
         "offer_FR386k": {
           "type": "offer",
+          "disabled": true,
           "settings": {
             "text_alignment": "start",
             "icon_position": "aligned",
@@ -119,6 +126,7 @@
         },
         "offer_nB3eTN": {
           "type": "offer",
+          "disabled": true,
           "settings": {
             "text_alignment": "start",
             "icon_position": "aligned",
@@ -132,12 +140,14 @@
         },
         "liquid_aXrnxz": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": ""
           }
         },
         "offer_L6QTpL": {
           "type": "offer",
+          "disabled": true,
           "settings": {
             "text_alignment": "center",
             "icon_position": "aligned",
@@ -210,6 +220,7 @@
         "description",
         "variant_picker",
         "buy_buttons",
+        "liquid_Xfpzhk",
         "liquid_Kp9Nee",
         "offer_FR386k",
         "offer_nB3eTN",
