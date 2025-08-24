@@ -178,7 +178,7 @@
         "image_YfxCJn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/002_11286523540_1375851050.jpg",
+            "image": "shopify://shop_images/DSC00165.jpg",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center text-center",
@@ -189,12 +189,12 @@
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
             "link_text": "Lire toute l’histoire",
             "link_url": "shopify://pages/contact",
-            "background": "#f78e1a",
+            "background": "#ffffff",
             "background_gradient": "",
-            "text_color": "#ffffff",
+            "text_color": "#000000",
             "text_gradient": "",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000"
+            "button_background": "#f78e1a",
+            "button_text_color": "#ffffff"
           }
         }
       },
