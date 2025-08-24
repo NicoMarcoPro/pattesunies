@@ -76,7 +76,7 @@
           "settings": {
             "title": "100 000",
             "subheading": "chiens abandonnés par an 🐶",
-            "content": "",
+            "content": "<p>👉 <em>soit 10 chiens par heure qui perdent leur famille</em></p>",
             "button_text": "",
             "button_url": "",
             "animate_impact_text": true,
@@ -86,21 +86,21 @@
         "item_bieyAG": {
           "type": "item",
           "settings": {
-            "title": "100%",
-            "subheading": "Showcase a benefit of your product",
-            "content": "",
+            "title": "7 sur 10",
+            "subheading": "refuges débordés et en manque de moyens 🏚️",
+            "content": "<p>👉 <em>chaque don, chaque repas, chaque geste compte</em></p>",
             "button_text": "",
             "button_url": "",
-            "animate_impact_text": false,
+            "animate_impact_text": true,
             "animate_impact_text_duration": 2
           }
         },
         "item_eAegma": {
           "type": "item",
           "settings": {
-            "title": "33",
-            "subheading": "animaux abandonnés chaque heure ⏰",
-            "content": "",
+            "title": "1 bracelet",
+            "subheading": "= 1 repas offert + 1 patte sauvée 🐾",
+            "content": "<p>👉 <em>votre geste change une vie</em></p>",
             "button_text": "",
             "button_url": "",
             "animate_impact_text": true,
