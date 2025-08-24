@@ -173,6 +173,12 @@
             "content": "<p>Share some content to your customers about your products.</p>",
             "page": ""
           }
+        },
+        "liquid_qKRmTY": {
+          "type": "liquid",
+          "settings": {
+            "liquid": ""
+          }
         }
       },
       "block_order": [
@@ -195,7 +201,8 @@
         "collapsible_text_8ieRcq",
         "collapsible_text_dQ7r8D",
         "collapsible_text_7HTYBX",
-        "collapsible_text_FhbknG"
+        "collapsible_text_FhbknG",
+        "liquid_qKRmTY"
       ],
       "settings": {
         "full_width": true,
