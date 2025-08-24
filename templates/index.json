@@ -38,6 +38,7 @@
       "block_order": [
         "video_eze9Kj"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
@@ -84,13 +85,12 @@
         "heading_EQGjQW",
         "button_UGKxYY"
       ],
-      "disabled": true,
       "name": "Video",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "auto",
+        "autoplay": false,
+        "video_size": "lg",
         "video": "shopify://files/videos/videositeban.mp4",
         "mobile_video": "shopify://files/videos/videositeban.mp4",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
