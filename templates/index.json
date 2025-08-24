@@ -189,12 +189,12 @@
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
             "link_text": "Lire toute l’histoire",
             "link_url": "shopify://pages/contact",
-            "background": "#ffe8cc",
+            "background": "#f78e1a",
             "background_gradient": "",
-            "text_color": "#000000",
+            "text_color": "#ffffff",
             "text_gradient": "",
-            "button_background": "#f78e1a",
-            "button_text_color": ""
+            "button_background": "#ffffff",
+            "button_text_color": "#000000"
           }
         }
       },
