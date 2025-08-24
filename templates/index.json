@@ -75,7 +75,7 @@
           "type": "item",
           "settings": {
             "title": "100 000",
-            "subheading": "chiens abandonnés par an 🐶",
+            "subheading": "chiens abandonnés par an",
             "content": "<p>👉 <em>soit 10 chiens par heure qui perdent leur famille</em></p>",
             "button_text": "",
             "button_url": "",
@@ -87,7 +87,7 @@
           "type": "item",
           "settings": {
             "title": "7 refuges sur 10",
-            "subheading": "débordés et en manque de moyens 🏚️",
+            "subheading": "débordés et en manque de moyens",
             "content": "<p>👉 <em>chaque don, chaque repas, chaque geste compte</em></p>",
             "button_text": "",
             "button_url": "",
@@ -99,7 +99,7 @@
           "type": "item",
           "settings": {
             "title": "1 bracelet",
-            "subheading": "= 1 repas offert + 1 patte sauvée 🐾",
+            "subheading": "= 1 repas offert + 1 patte sauvée",
             "content": "<p>👉 <em>votre geste change une vie</em></p>",
             "button_text": "",
             "button_url": "",
