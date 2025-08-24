@@ -94,10 +94,10 @@
           "settings": {
             "text_alignment": "start",
             "icon_position": "aligned",
-            "icon": "picto-coupon",
+            "icon": "picto-credit-card",
             "icon_width": 20,
-            "title": "Shipping",
-            "content": "<p>Short content about your shipping rates or discounts.</p>",
+            "title": "Paiement 100 % sécurisé",
+            "content": "<p>Vos transactions sont protégées et cryptées pour un achat sans risque.</p>",
             "background": "#eaf2ed",
             "text_color": "#00a341"
           }
@@ -109,8 +109,8 @@
             "icon_position": "aligned",
             "icon": "picto-coupon",
             "icon_width": 20,
-            "title": "Shipping",
-            "content": "<p>Short content about your shipping rates or discounts.</p>",
+            "title": "Retours faciles sous 30 jours",
+            "content": "<p>Changez d’avis ? Vous disposez de 30 jours pour un retour simple et rapide.</p>",
             "background": "#eaf2ed",
             "text_color": "#00a341"
           }
@@ -128,8 +128,8 @@
             "icon_position": "aligned",
             "icon": "picto-coupon",
             "icon_width": 20,
-            "title": "Shipping",
-            "content": "<p>Short content about your shipping rates or discounts.</p>",
+            "title": "Don tracé et transparent",
+            "content": "<p>Chaque euro est reversé aux refuges, avec preuves et reçus publiés.</p>",
             "background": "#eaf2ed",
             "text_color": "#00a341"
           }
