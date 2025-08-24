@@ -28,6 +28,12 @@
             "show_taxes_notice": false
           }
         },
+        "text_N66M3A": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Chaque bracelet est le symbole de votre engagement contre l’abandon. En le portant, vous affichez votre soutien et financez directement repas, soins et protection pour les chiens des refuges.</p>"
+          }
+        },
         "liquid_LQRNEd": {
           "type": "liquid",
           "settings": {
@@ -181,6 +187,7 @@
         "title",
         "badges",
         "price",
+        "text_N66M3A",
         "liquid_LQRNEd",
         "rating",
         "payment_terms",
