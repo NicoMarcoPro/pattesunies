@@ -221,6 +221,19 @@
         "text_color": ""
       }
     },
+    "custom_liquid_4QTP8W": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n  /* --- Section Appel final --- */\n  .final-cta {\n    background: #FFF9F3; /* beige très doux pour casser le blanc */\n    padding: 4rem 1.25rem;\n    text-align: center;\n    border-radius: 12px;\n  }\n\n  /* Titre réutilisant la DA précédente */\n  .din-title-wrapper { text-align: center; margin: 0 0 1.75rem 0; }\n  .din-title {\n    font-family: \"DIN Next\", sans-serif;\n    font-size: clamp(32px, 6vw, 56px);\n    font-weight: 700;\n    line-height: 1.2;\n    color: #111;\n    margin: 0;\n    position: relative;\n    display: inline-block;\n  }\n  .din-title .highlight {\n    color: #F78E1A;\n    position: relative; z-index: 1;\n  }\n  .din-title .highlight::before {\n    content: '';\n    position: absolute;\n    left: -0.1em; bottom: 0.05em;\n    width: 105%; height: 0.35em;\n    background: #F78E1A; opacity: .3;\n    border-radius: 3px; z-index: -1;\n  }\n  .din-underline {\n    width: 60px; height: 4px; background: #F78E1A;\n    border-radius: 2px; margin: 1rem auto 0;\n  }\n\n  /* Texte */\n  .final-cta p {\n    max-width: 720px;\n    margin: 0.75rem auto 2rem;\n    color: #2E2E2E;\n    font-size: clamp(16px, 2.6vw, 18px);\n    line-height: 1.6;\n  }\n\n  /* Bouton */\n  .final-cta .cta-btn {\n    display: inline-block;\n    background: #F78E1A;\n    color: #fff;\n    font-weight: 700;\n    padding: 0.95rem 1.5rem;\n    border-radius: 10px;\n    text-decoration: none;\n    transition: transform .08s ease, background .2s ease, box-shadow .2s ease;\n    box-shadow: 0 6px 18px rgba(247,142,26,.25);\n  }\n  .final-cta .cta-btn:hover { background:#e17d0f; transform: translateY(-1px); }\n  .final-cta .cta-btn:active { transform: translateY(0); }\n\n  /* Espace extérieur (optionnel si tu veux coller aux blocs voisins) */\n  .final-cta.container { margin: 2.5rem 0; }\n\n  /* Mobile spacing fin */\n  @media (max-width:768px){\n    .final-cta { padding: 3rem 1rem; }\n  }\n</style>\n\n<section class=\"final-cta container\">\n  <div class=\"din-title-wrapper\">\n    <h2 class=\"din-title\">\n      Offrez-leur une <span class=\"highlight\">seconde chance</span> ❤️\n    </h2>\n    <div class=\"din-underline\"></div>\n  </div>\n\n  <p>Pour eux, chaque jour compte. Avec un bracelet, vous ne portez pas seulement un bijou&nbsp;: vous portez un espoir.</p>\n\n  <!-- Remplace le href par l’URL de ta collection ou de ton produit -->\n  <a class=\"cta-btn\" href=\"/collections/all\">Je sauve une patte aujourd’hui</a>\n</section>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "multi_column_K3BfW3": {
       "type": "multi-column",
       "blocks": {
@@ -291,6 +304,7 @@
     "slideshow",
     "media_with_text_JLU8em",
     "custom_liquid_3KP7xX",
-    "multi_column_K3BfW3"
+    "multi_column_K3BfW3",
+    "custom_liquid_4QTP8W"
   ]
 }
