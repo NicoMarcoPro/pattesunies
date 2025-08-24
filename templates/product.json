@@ -335,6 +335,19 @@
         "spacing": "small"
       }
     },
+    "custom_liquid_c7P939": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n  .din-title-wrapper {\n    text-align: center;\n    margin: 4rem 0; /* desktop */\n    padding: 0;\n  }\n\n  .din-title {\n    font-family: \"DIN Next\", sans-serif;\n    font-size: clamp(28px, 7vw, 64px); /* j'ai réduit un peu pour mobile */\n    font-weight: 700;\n    line-height: 1.2;\n    color: #111111;\n    margin: 0;\n    position: relative;\n    display: inline-block;\n  }\n\n  .din-title .highlight {\n    color: #F78E1A;\n    position: relative;\n    z-index: 1;\n  }\n\n  .din-title .highlight::before {\n    content: '';\n    position: absolute;\n    left: -0.1em;\n    bottom: 0.05em;\n    width: 105%;\n    height: 0.35em;\n    background: #F78E1A;\n    z-index: -1;\n    border-radius: 3px;\n    opacity: 0.3;\n  }\n\n  .din-underline {\n    width: 60px;\n    height: 4px;\n    background-color: #F78E1A;\n    border-radius: 2px;\n    margin: 0.8rem auto 0 auto;\n  }\n\n  /* correction mobile */\n  @media (max-width: 768px) {\n    .din-title-wrapper {\n      margin: 2rem 0; /* réduit l’espace haut et bas */\n    }\n  }\n</style>\n\n<div class=\"din-title-wrapper\">\n  <h2 class=\"din-title\">\n    Ils ont déjà <span class=\"highlight\">tendu</span> la patte 🐾\n  </h2>\n  <div class=\"din-underline\"></div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "multi_column_rPaee8": {
       "type": "multi-column",
       "blocks": {
@@ -405,6 +418,7 @@
     "media_with_text_ie6j3W",
     "custom_liquid_CFCdW7",
     "media_with_text_WBVLRN",
+    "custom_liquid_c7P939",
     "multi_column_rPaee8"
   ]
 }
