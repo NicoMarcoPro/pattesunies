@@ -28,6 +28,12 @@
             "show_taxes_notice": false
           }
         },
+        "liquid_rHEzcC": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  .product-icons {\n    display: flex;\n    gap: 2rem;\n    margin: 1.5rem 0;\n    flex-wrap: wrap;\n  }\n\n  .product-icon {\n    display: flex;\n    align-items: center;\n    gap: 0.6rem;\n    font-size: 0.95rem;\n    color: #111;\n    font-weight: 500;\n  }\n\n  .product-icon img {\n    width: 28px;\n    height: 28px;\n    flex-shrink: 0;\n  }\n\n  .product-icon span {\n    display: flex;\n    flex-direction: column;\n    line-height: 1.3;\n  }\n\n  .product-icon span strong {\n    font-weight: 700;\n    color: #111;\n  }\n\n  .product-icon span small {\n    font-size: 0.85rem;\n    color: #555;\n  }\n</style>\n\n<div class=\"product-icons\">\n  <div class=\"product-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0960/1807/1889/files/bracelet_2_25x_25548c42-c5e1-490e-96c0-66afa390bd84.webp?v=1756040808\" alt=\"Bracelet\">\n    <span>\n      <strong>Bracelet solidaire</strong>\n      <small>Un bijou qui a du sens</small>\n    </span>\n  </div>\n\n  <div class=\"product-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0960/1807/1889/files/brittany-dog_25x_c11737c1-756b-4993-b01e-5d71c9b2a7d3.webp?v=1756040808\" alt=\"Chien\">\n    <span>\n      <strong>1 repas offert</strong>\n      <small>Un chien aidé à chaque achat</small>\n    </span>\n  </div>\n\n  <div class=\"product-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0960/1807/1889/files/book-cover_25x_79b20ea9-9e29-4b18-8e00-bbcd094f6e15.webp?v=1756040809\" alt=\"Livre\">\n    <span>\n      <strong>Livraison rapide</strong>\n      <small>Suivi & retour facile</small>\n    </span>\n  </div>\n</div>"
+          }
+        },
         "text_N66M3A": {
           "type": "text",
           "settings": {
@@ -187,6 +193,7 @@
         "title",
         "badges",
         "price",
+        "liquid_rHEzcC",
         "text_N66M3A",
         "liquid_LQRNEd",
         "rating",
