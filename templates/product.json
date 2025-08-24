@@ -178,8 +178,8 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "Que finance mon achat ?",
-            "content": "<p>Share some content to your customers about your products.</p>",
+            "title": "Que finance réellement mon achat ?",
+            "content": "<p>Chaque bracelet acheté finance directement <strong>un repas, des soins et la protection d’un chien en refuge</strong>.</p><p>Nous collaborons uniquement avec des associations locales partenaires, et nous publions chaque mois les preuves de dons et reçus.</p>",
             "page": ""
           }
         },
@@ -188,8 +188,8 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "Délais de livraison ?",
-            "content": "<p>Share some content to your customers about your products.</p>",
+            "title": "Quels sont les délais de livraison ?",
+            "content": "<p>Votre commande est préparée en 24h et expédiée sous <strong>48h</strong>.</p><p>Les délais moyens de livraison sont de <strong>3 à 5 jours ouvrés en France</strong>. Vous recevrez un numéro de suivi pour suivre votre colis à tout moment.</p>",
             "page": ""
           }
         },
@@ -198,8 +198,8 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "Retours & échanges ?",
-            "content": "<p>Share some content to your customers about your products.</p>",
+            "title": "Puis-je retourner ou échanger mon bracelet ?",
+            "content": "<p>Oui ! Vous disposez de <strong>30 jours</strong> pour changer d’avis.</p><p>Un échange ou un remboursement complet est possible, sans poser de questions. Votre satisfaction est notre priorité.</p>",
             "page": ""
           }
         },
