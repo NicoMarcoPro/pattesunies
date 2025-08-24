@@ -92,10 +92,44 @@
             "liquid": "<style>\n  .trust-badges{display:flex;gap:1rem;flex-wrap:wrap;margin:.5rem 0;color:#2d2d2d}\n  .trust-badges div{display:flex;gap:.45rem;align-items:center;background:#fff;border:1px solid #FFE1BD;border-radius:999px;padding:.45rem .7rem;font-weight:600}\n</style>\n<div class=\"trust-badges\">\n  <div>🔒 Paiement sécurisé</div>\n  <div>💶 Don tracé</div>\n  <div>↩️ Retours 30 jours</div>\n</div>"
           }
         },
-        "liquid_bT84dN": {
-          "type": "liquid",
+        "collapsible_text_8ieRcq": {
+          "type": "collapsible_text",
           "settings": {
-            "liquid": "<style>\n  .faq{margin:1.2rem 0;border-top:1px solid #eee}\n  .faq details{border-bottom:1px solid #eee;padding:.8rem 0}\n  .faq summary{cursor:pointer;font-weight:700}\n  .faq p{margin:.6rem 0 0;color:#444}\n</style>\n<div class=\"faq\">\n  <details><summary>Le bracelet est-il ajustable ?</summary><p>Oui, 16–26 cm.</p></details>\n  <details><summary>Que finance mon achat ?</summary><p>1 repas & soins. Preuves : <a href=\"/pages/preuves\">/pages/preuves</a>.</p></details>\n  <details><summary>Délais de livraison ?</summary><p>48–72h France avec suivi.</p></details>\n  <details><summary>Retours & échanges ?</summary><p>30 jours, échanges offerts.</p></details>\n</div>"
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Le bracelet est-il ajustable ?",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_text_dQ7r8D": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Que finance mon achat ?",
+            "content": "<p>Share some content to your customers about your products.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_7HTYBX": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Délais de livraison ?",
+            "content": "<p>Share some content to your customers about your products.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_FhbknG": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Retours & échanges ?",
+            "content": "<p>Share some content to your customers about your products.</p>",
+            "page": ""
           }
         }
       },
@@ -113,7 +147,10 @@
         "quantity_selector",
         "buy_buttons",
         "liquid_Kp9Nee",
-        "liquid_bT84dN"
+        "collapsible_text_8ieRcq",
+        "collapsible_text_dQ7r8D",
+        "collapsible_text_7HTYBX",
+        "collapsible_text_FhbknG"
       ],
       "settings": {
         "full_width": true,
