@@ -107,7 +107,7 @@
           "settings": {
             "text_alignment": "start",
             "icon_position": "aligned",
-            "icon": "picto-coupon",
+            "icon": "picto-return",
             "icon_width": 20,
             "title": "Retours faciles sous 30 jours",
             "content": "<p>Changez d’avis ? Vous disposez de 30 jours pour un retour simple et rapide.</p>",
@@ -126,7 +126,7 @@
           "settings": {
             "text_alignment": "center",
             "icon_position": "aligned",
-            "icon": "picto-coupon",
+            "icon": "picto-target",
             "icon_width": 20,
             "title": "Don tracé et transparent",
             "content": "<p>Chaque euro est reversé aux refuges, avec preuves et reçus publiés.</p>",
