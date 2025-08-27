@@ -41,12 +41,6 @@
             "show_taxes_notice": false
           }
         },
-        "text_N66M3A": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Chaque bracelet est le symbole de votre engagement contre l’abandon. En le portant, vous affichez votre soutien et financez directement repas, soins et protection pour les chiens des refuges.</p>"
-          }
-        },
         "liquid_rHEzcC": {
           "type": "liquid",
           "settings": {
@@ -91,6 +85,12 @@
         "conversion_bear_trust_badges_widget_ecLzxx": {
           "type": "shopify://apps/conversion-bear-trust-badges/blocks/widget/163a9b59-0ec2-4cb7-bf5c-31408b4a9420",
           "settings": {}
+        },
+        "text_N66M3A": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Chaque bracelet est le symbole de votre engagement contre l’abandon. En le portant, vous affichez votre soutien et financez directement repas, soins et protection pour les chiens des refuges.</p>"
+          }
         },
         "liquid_Xfpzhk": {
           "type": "liquid",
@@ -207,7 +207,6 @@
         "liquid_LQRNEd",
         "badges",
         "price",
-        "text_N66M3A",
         "liquid_rHEzcC",
         "separator",
         "rating",
@@ -215,6 +214,7 @@
         "description",
         "buy_buttons",
         "conversion_bear_trust_badges_widget_ecLzxx",
+        "text_N66M3A",
         "liquid_Xfpzhk",
         "liquid_Kp9Nee",
         "offer_FR386k",
