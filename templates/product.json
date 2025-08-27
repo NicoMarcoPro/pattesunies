@@ -465,6 +465,7 @@
         },
         "item_AVXttU": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/avis10.png",
             "stretch_image": true,
@@ -478,6 +479,7 @@
         },
         "item_jXpgkT": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/avis7.png",
             "stretch_image": true,
@@ -517,6 +519,7 @@
         },
         "item_Bp4gJk": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/avis4.jpg",
             "stretch_image": true,
@@ -540,8 +543,8 @@
       ],
       "name": "Image link blocks",
       "settings": {
-        "full_width": false,
-        "block_size": "medium",
+        "full_width": true,
+        "block_size": "large",
         "subheading": "",
         "title": "",
         "content": "",
