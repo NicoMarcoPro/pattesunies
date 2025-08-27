@@ -797,7 +797,7 @@
         "content": "<p>Une question sur nos bracelets, une commande, ou juste envie de nous dire bonjour ?</p><p>Écrivez-nous ci-dessous, notre petite meute vous répond au plus vite (généralement sous 24h).</p>",
         "text_position": "center",
         "contact_form_size": "large",
-        "background": "",
+        "background": "#fff9f3",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
