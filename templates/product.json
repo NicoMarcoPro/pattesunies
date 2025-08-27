@@ -327,7 +327,7 @@
             "image": "shopify://shop_images/abandon.png",
             "icon": "none",
             "icon_width": 48,
-            "title": "Plus de 100 000 par an… des vies brisées, des refuges saturés.",
+            "title": "Chaque heure, 10 chiens sont abandonnés en France",
             "content": "<p>Sans famille, ces animaux se retrouvent livrés à eux-mêmes : pas de nourriture, peu de soins, et souvent non stérilisés.</p><p>Les refuges, déjà saturés, n’ont pas assez de place ni de moyens pour accueillir tous ces oubliés.</p>"
           }
         },
@@ -345,6 +345,7 @@
         "item_AGNExJ",
         "item_NTYDNb"
       ],
+      "disabled": true,
       "name": "Images and text scrolling",
       "settings": {
         "full_width": true,
