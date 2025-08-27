@@ -434,6 +434,126 @@
         "text_color": ""
       }
     },
+    "image_link_blocks_96ccEb": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "item_9PB79F": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/avis8.png",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_9qwUWf": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/avis9.png",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_AVXttU": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/avis10.png",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_jXpgkT": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/avis7.png",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_Vwh66V": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/avis1.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_7JeERt": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/avis3.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_Bp4gJk": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/avis4.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_9PB79F",
+        "item_9qwUWf",
+        "item_AVXttU",
+        "item_jXpgkT",
+        "item_Vwh66V",
+        "item_7JeERt",
+        "item_Bp4gJk"
+      ],
+      "name": "Image link blocks",
+      "settings": {
+        "full_width": false,
+        "block_size": "medium",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "multi_column_rPaee8": {
       "type": "multi-column",
       "blocks": {
@@ -482,6 +602,7 @@
         "item_VnKAdp",
         "item_Lbw38f"
       ],
+      "disabled": true,
       "name": "Multi-column",
       "settings": {
         "full_width": true,
@@ -498,6 +619,7 @@
     },
     "custom_liquid_F4CU9f": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
@@ -533,6 +655,7 @@
     "custom_liquid_CFCdW7",
     "media_with_text_WBVLRN",
     "custom_liquid_c7P939",
+    "image_link_blocks_96ccEb",
     "multi_column_rPaee8",
     "custom_liquid_F4CU9f",
     "custom_liquid_3BQktN"
