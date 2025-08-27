@@ -258,7 +258,7 @@
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": false,
+        "remove_vertical_spacing": true,
         "remove_horizontal_spacing": false,
         "liquid": "<style>\n  /* ===== Section Constat – version harmonisée ===== */\n  .pu-problem {\n    background: #ffffff;\n    padding: 2.5rem 1.25rem;\n    text-align: center;\n  }\n\n  /* Kicker */\n  .pu-kicker {\n    display: inline-block;\n    font-size: .95rem;\n    font-weight: 700;\n    color: #555;\n    background: #f3f3f3;\n    border: 1px solid #e5e5e5;\n    padding: .45rem .9rem;\n    border-radius: 999px;\n    margin-bottom: 1rem;\n  }\n\n  /* Titre */\n  .pu-problem .din-title {\n    font-family: \"DIN Next\", sans-serif;\n    font-size: clamp(28px, 5vw, 40px);\n    font-weight: 800;\n    line-height: 1.25;\n    color: #111;\n    margin: 0;\n    position: relative;\n    display: inline-block;\n  }\n\n  .pu-problem .highlight {\n    color: #F78E1A;\n    position: relative;\n    z-index: 1;\n  }\n  .pu-problem .highlight::before {\n    content: '';\n    position: absolute;\n    left: -0.1em; bottom: 0.05em;\n    width: 105%; height: 0.3em;\n    background: #F78E1A;\n    opacity: .25;\n    border-radius: 3px;\n    z-index: -1;\n  }\n\n  .pu-problem .din-underline {\n    width: 50px;\n    height: 3px;\n    background: #F78E1A;\n    border-radius: 2px;\n    margin: .9rem auto 1.2rem;\n  }\n\n  /* Texte */\n  .pu-problem p {\n    max-width: 740px;\n    margin: 0 auto 1rem;\n    font-size: clamp(15px, 2.6vw, 17px);\n    line-height: 1.65;\n    color: #333;\n  }\n\n  @media (max-width: 768px) {\n    .pu-problem {\n      padding: 2rem 1rem;\n    }\n    .pu-problem p {\n      font-size: 15px;\n      line-height: 1.55;\n    }\n  }\n</style>\n\n<section class=\"pu-problem\">\n  <div class=\"pu-kicker\">Chaque heure, 10 chiens sont abandonnés en France</div>\n\n  <h2 class=\"din-title\">\n    Plus de <span class=\"highlight\">100&nbsp;000</span> par an…<br>\n    des vies brisées, des refuges saturés.\n  </h2>\n  <div class=\"din-underline\"></div>\n\n  <p>\n    Sans famille, ces animaux se retrouvent livrés à eux-mêmes&nbsp;: pas de nourriture,\n    peu de soins, et souvent non stérilisés.\n  </p>\n  <p>\n    Les refuges, déjà saturés, n’ont pas assez de place ni de moyens pour accueillir tous ces oubliés.\n  </p>\n</section>",
         "background": "",
@@ -332,11 +332,28 @@
       "block_order": [
         "image_VTqrrp"
       ],
+      "disabled": true,
       "name": "Media with text",
       "settings": {
         "full_width": false,
         "alternate_media_position": false,
         "spacing": "small"
+      }
+    },
+    "image_with_text_overlay_EPhp4r": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/chiensspa.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
       }
     },
     "custom_liquid_8RVfLa": {
@@ -751,6 +768,7 @@
     "custom_liquid_4pN6Pa",
     "related-products",
     "media_with_text_ie6j3W",
+    "image_with_text_overlay_EPhp4r",
     "custom_liquid_8RVfLa",
     "media_with_text_TBRb4C",
     "custom_liquid_tBxQXm",
