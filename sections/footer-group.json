@@ -104,7 +104,7 @@
           "settings": {
             "menu": "main-menu",
             "show_menu_title": true,
-            "menu_title": ""
+            "menu_title": "À PROPOS DE NOUS"
           }
         },
         "links_rhiPnC": {
@@ -112,11 +112,12 @@
           "settings": {
             "menu": "footer",
             "show_menu_title": true,
-            "menu_title": ""
+            "menu_title": "INFORMATIONS"
           }
         },
         "text": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "title": "Pattes Unies – by Ryna",
             "content": "<p>Une patte tendue mérite une main ouverte : ensemble, nous aidons les chiens à trouver un avenir meilleur.</p>",
