@@ -364,6 +364,7 @@
       "block_order": [
         "image_kmqhLp"
       ],
+      "disabled": true,
       "name": "Media with text",
       "settings": {
         "full_width": false,
