@@ -318,6 +318,47 @@
         "spacing": "small"
       }
     },
+    "images_with_text_scrolling_fpFYpm": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_AGNExJ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/abandon.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Plus de 100 000 par an… des vies brisées, des refuges saturés.",
+            "content": "<p>Sans famille, ces animaux se retrouvent livrés à eux-mêmes : pas de nourriture, peu de soins, et souvent non stérilisés.</p><p>Les refuges, déjà saturés, n’ont pas assez de place ni de moyens pour accueillir tous ces oubliés.</p>"
+          }
+        },
+        "item_NTYDNb": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading 2",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_AGNExJ",
+        "item_NTYDNb"
+      ],
+      "name": "Images and text scrolling",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "show_counter": false,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "custom_liquid_tBxQXm": {
       "type": "custom-liquid",
       "custom_css": [
@@ -492,6 +533,7 @@
     "custom_liquid_4pN6Pa",
     "related-products",
     "media_with_text_ie6j3W",
+    "images_with_text_scrolling_fpFYpm",
     "custom_liquid_tBxQXm",
     "custom_liquid_CFCdW7",
     "media_with_text_WBVLRN",
