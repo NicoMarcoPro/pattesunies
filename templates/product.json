@@ -82,8 +82,15 @@
             "payment_button_text_color": ""
           }
         },
+        "liquid_WAtC48": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!-- Section Impact Repas (compacte) -->\n<div class=\"meal-promo-compact\">\n  <div class=\"meal-wrapper\">\n\n    <!-- 1 bracelet -->\n    <div class=\"meal-card\">\n      <div class=\"meal-badge\">1 BRACELET</div>\n      <div class=\"meal-content\">\n        <span class=\"meal-number\">1</span>\n        <span class=\"meal-eq\">repas offert</span>\n      </div>\n    </div>\n\n    <!-- 2 bracelets -->\n    <div class=\"meal-card\">\n      <div class=\"meal-badge\">2 BRACELETS</div>\n      <div class=\"meal-content\">\n        <span class=\"meal-number\">2</span>\n        <span class=\"meal-eq\">repas offerts</span>\n      </div>\n    </div>\n\n    <!-- 3 bracelets -->\n    <div class=\"meal-card\">\n      <div class=\"meal-badge\">3 BRACELETS</div>\n      <div class=\"meal-content\">\n        <span class=\"meal-number\">3</span>\n        <span class=\"meal-eq\">repas offerts</span>\n      </div>\n    </div>\n\n  </div>\n</div>\n\n<style>\n/* ===== Impact Repas – Compact ===== */\n.meal-promo-compact{\n  margin:15px 0; padding:0 10px;\n  font-family: inherit;\n}\n\n.meal-wrapper{\n  display:flex; gap:8px; justify-content:space-between; align-items:stretch;\n}\n\n.meal-card{\n  flex:1; min-height:85px;\n  background:#f8f9fa;\n  border:2px solid #e9ecef;\n  border-radius:8px;\n  padding:12px 8px;\n  text-align:center;\n  display:flex; flex-direction:column; justify-content:space-between;\n  cursor:default; transition:none;\n}\n\n.meal-badge{\n  background:#F78E1A; color:#fff;\n  font-size:10px; font-weight:700;\n  padding:4px 6px; border-radius:12px;\n  letter-spacing:.3px; margin-bottom:8px;\n}\n\n.meal-content{ display:flex; flex-direction:column; gap:2px; }\n\n.meal-number{\n  font-size:22px; line-height:1; font-weight:900; color:#111;\n}\n.meal-eq{\n  font-size:11px; color:#666; font-weight:700; text-transform:uppercase;\n  letter-spacing:.25px;\n}\n\n/* Désactivation hover / états */\n.meal-card:hover,\n.meal-card.active,\n.meal-card.selected{\n  background:#f8f9fa; border-color:#e9ecef; transform:none;\n}\n\n/* Mobile */\n@media (max-width:480px){\n  .meal-promo-compact{ margin:10px 0; padding:0 5px; }\n  .meal-wrapper{ gap:6px; }\n  .meal-card{ min-height:72px; padding:10px 6px; }\n  .meal-badge{ font-size:9px; padding:3px 5px; margin-bottom:6px; }\n  .meal-number{ font-size:19px; }\n  .meal-eq{ font-size:9px; }\n}\n\n/* Très petits écrans */\n@media (max-width:360px){\n  .meal-card{ min-height:68px; padding:8px 4px; }\n  .meal-badge{ font-size:8px; padding:2px 4px; }\n  .meal-number{ font-size:17px; }\n  .meal-eq{ font-size:8px; }\n}\n</style>"
+          }
+        },
         "conversion_bear_trust_badges_widget_ecLzxx": {
           "type": "shopify://apps/conversion-bear-trust-badges/blocks/widget/163a9b59-0ec2-4cb7-bf5c-31408b4a9420",
+          "disabled": true,
           "settings": {}
         },
         "text_N66M3A": {
@@ -213,6 +220,7 @@
         "payment_terms",
         "description",
         "buy_buttons",
+        "liquid_WAtC48",
         "conversion_bear_trust_badges_widget_ecLzxx",
         "text_N66M3A",
         "liquid_Xfpzhk",
