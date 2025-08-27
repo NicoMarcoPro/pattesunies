@@ -11,6 +11,40 @@
   "type": "header",
   "name": "Header group",
   "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "message": {
+          "type": "message",
+          "settings": {
+            "text": "100% transparent : vos dons reversés aux refuges 🐶",
+            "url": ""
+          }
+        },
+        "message_7HnKeT": {
+          "type": "message",
+          "settings": {
+            "text": "Rejoignez la meute ❤️ chaque bracelet sauve une patte",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "message",
+        "message_7HnKeT"
+      ],
+      "settings": {
+        "enable_sticky": false,
+        "autoplay": false,
+        "cycle_speed": 6,
+        "text_size": "text-xs",
+        "navigation_mode": "scrolling",
+        "scrolling_speed": 10,
+        "background": "#f78e1a",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
     "header": {
       "type": "header",
       "settings": {
@@ -35,45 +69,10 @@
         "background_opacity": 100,
         "background_blur_radius": 0
       }
-    },
-    "announcement-bar": {
-      "type": "announcement-bar",
-      "blocks": {
-        "message": {
-          "type": "message",
-          "settings": {
-            "text": "100% transparent : vos dons reversés aux refuges 🐶",
-            "url": ""
-          }
-        },
-        "message_7HnKeT": {
-          "type": "message",
-          "settings": {
-            "text": "Rejoignez la meute ❤️ chaque bracelet sauve une patte",
-            "url": ""
-          }
-        }
-      },
-      "block_order": [
-        "message",
-        "message_7HnKeT"
-      ],
-      "disabled": true,
-      "settings": {
-        "enable_sticky": false,
-        "autoplay": false,
-        "cycle_speed": 6,
-        "text_size": "text-xs",
-        "navigation_mode": "scrolling",
-        "scrolling_speed": 10,
-        "background": "#fff9f3",
-        "background_gradient": "",
-        "text_color": "#000000"
-      }
     }
   },
   "order": [
-    "header",
-    "announcement-bar"
+    "announcement-bar",
+    "header"
   ]
 }
