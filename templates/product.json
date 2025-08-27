@@ -245,75 +245,6 @@
         "input_text_color": ""
       }
     },
-    "img_whith_text14_hRcN8a": {
-      "type": "img-whith-text14",
-      "blocks": {
-        "heading_KbTeAJ": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Plus de 100 000 par an… des vies brisées, des refuges saturés.</p>",
-            "heading_custom": false,
-            "heading_font": "josefin_sans_n4",
-            "heading_size": 36,
-            "heading_size_mobile": 26,
-            "heading_height": 130,
-            "heading_mt": 0,
-            "heading_mt_mobile": 0,
-            "heading_color": "#000000"
-          }
-        },
-        "text_r4bQDK": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Sans famille, ces animaux se retrouvent livrés à eux-mêmes : pas de nourriture, peu de soins, et souvent non stérilisés.</p><p>Les refuges, déjà saturés, n’ont pas assez de place ni de moyens pour accueillir tous ces oubliés.</p>",
-            "text_custom": false,
-            "text_font": "josefin_sans_n4",
-            "text_size": 16,
-            "text_size_mobile": 14,
-            "text_mt": 24,
-            "text_mt_mobile": 16,
-            "text_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "heading_KbTeAJ",
-        "text_r4bQDK"
-      ],
-      "name": "SS - Image With Text #14",
-      "settings": {
-        "body_gap": 48,
-        "body_gap_mobile": 0,
-        "content_horizontal_align": "center",
-        "content_horizontal_align_mobile": "center",
-        "content_vertical_align": "center",
-        "content_padding_vertical": 32,
-        "content_padding_vertical_mobile": 16,
-        "content_padding_horizontal": 32,
-        "content_padding_horizontal_mobile": 16,
-        "image": "shopify://shop_images/abandon.png",
-        "image_position": "right",
-        "image_position_mobile": "top",
-        "image_ratio": "original",
-        "image_ratio_mobile": "original",
-        "background_color": "#FFFFFF",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 52,
-        "margin_bottom": 52,
-        "margin_horizontal": 0,
-        "margin_horizontal_mobile": 0,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_horizontal": 0,
-        "padding_horizontal_mobile": 0,
-        "full_width": false,
-        "content_width": 120,
-        "border_thickness": 0,
-        "section_radius": 0,
-        "lazy": true
-      }
-    },
     "custom_liquid_4pN6Pa": {
       "type": "custom-liquid",
       "disabled": true,
@@ -554,7 +485,6 @@
   },
   "order": [
     "main",
-    "img_whith_text14_hRcN8a",
     "custom_liquid_4pN6Pa",
     "related-products",
     "media_with_text_ie6j3W",
