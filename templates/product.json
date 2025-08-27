@@ -318,46 +318,39 @@
         "spacing": "small"
       }
     },
-    "images_with_text_scrolling_fpFYpm": {
-      "type": "images-with-text-scrolling",
+    "media_with_text_ngzCFG": {
+      "type": "media-with-text",
       "blocks": {
-        "item_AGNExJ": {
-          "type": "item",
+        "image_kmqhLp": {
+          "type": "image",
           "settings": {
-            "image": "shopify://shop_images/abandon.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
             "icon": "none",
             "icon_width": 48,
-            "title": "Chaque heure, 10 chiens sont abandonnés en France",
-            "content": "<p>Sans famille, ces animaux se retrouvent livrés à eux-mêmes : pas de nourriture, peu de soins, et souvent non stérilisés.</p><p>Les refuges, déjà saturés, n’ont pas assez de place ni de moyens pour accueillir tous ces oubliés.</p>"
-          }
-        },
-        "item_NTYDNb": {
-          "type": "item",
-          "settings": {
-            "icon": "none",
-            "icon_width": 48,
-            "title": "Heading 2",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "subheading": "",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
           }
         }
       },
       "block_order": [
-        "item_AGNExJ",
-        "item_NTYDNb"
+        "image_kmqhLp"
       ],
-      "disabled": true,
-      "name": "Images and text scrolling",
+      "name": "Media with text",
       "settings": {
-        "full_width": true,
-        "stack_on_mobile": true,
-        "show_counter": false,
-        "desktop_image_effect": "reveal",
-        "image_position": "end",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small"
       }
     },
     "custom_liquid_tBxQXm": {
@@ -534,7 +527,7 @@
     "custom_liquid_4pN6Pa",
     "related-products",
     "media_with_text_ie6j3W",
-    "images_with_text_scrolling_fpFYpm",
+    "media_with_text_ngzCFG",
     "custom_liquid_tBxQXm",
     "custom_liquid_CFCdW7",
     "media_with_text_WBVLRN",
