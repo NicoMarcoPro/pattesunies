@@ -792,9 +792,9 @@
       "name": "Contact form",
       "settings": {
         "full_width": true,
-        "subheading": "Contact Us",
-        "title": "Do you have any question?",
-        "content": "",
+        "subheading": "Besoin d’un coup de patte ?",
+        "title": "Parlez-nous, on ne mord pas 🐶",
+        "content": "<p>Une question sur nos bracelets, une commande, ou juste envie de nous dire bonjour ?</p><p>Écrivez-nous ci-dessous, notre petite meute vous répond au plus vite (généralement sous 24h).</p>",
         "text_position": "center",
         "contact_form_size": "large",
         "background": "",
