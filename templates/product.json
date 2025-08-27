@@ -245,6 +245,130 @@
         "input_text_color": ""
       }
     },
+    "img_whith_text14_hRcN8a": {
+      "type": "img-whith-text14",
+      "blocks": {
+        "heading_KbTeAJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h2>Heading</h2>",
+            "heading_custom": false,
+            "heading_font": "josefin_sans_n4",
+            "heading_size": 36,
+            "heading_size_mobile": 26,
+            "heading_height": 130,
+            "heading_mt": 0,
+            "heading_mt_mobile": 0,
+            "heading_color": "#000000"
+          }
+        },
+        "text_r4bQDK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text_custom": false,
+            "text_font": "josefin_sans_n4",
+            "text_size": 16,
+            "text_size_mobile": 14,
+            "text_mt": 24,
+            "text_mt_mobile": 16,
+            "text_color": "#000000"
+          }
+        },
+        "button_FbEkPn": {
+          "type": "button",
+          "settings": {
+            "button": "LEARN MORE",
+            "button_url": "",
+            "button_custom": false,
+            "button_font": "josefin_sans_n4",
+            "button_size": 13,
+            "button_size_mobile": 13,
+            "button_height": 100,
+            "button_mt": 24,
+            "button_mt_mobile": 24,
+            "button_padding_vertical": 12,
+            "button_padding_vertical_mobile": 12,
+            "button_padding_horizontal": 30,
+            "button_padding_horizontal_mobile": 30,
+            "button_radius": 100,
+            "button_border_thickness": 1,
+            "button_style": "outline",
+            "button_color": "#000000",
+            "button_hover_color": "#FFFFFF",
+            "button_bg_color": "",
+            "button_bg_hover_color": "#000000",
+            "button_border_color": "#000000",
+            "button_border_hover_color": "#000000"
+          }
+        },
+        "scrolling_KFDMxA": {
+          "type": "scrolling",
+          "settings": {
+            "scrolling_velocity": 20,
+            "scrolling_velocity_mobile": 32,
+            "scrolling_gap": 16,
+            "scrolling_gap_mobile": 16,
+            "scrolling_mt": 16,
+            "scrolling_mt_mobile": 16,
+            "scrolling_mb": 12,
+            "scrolling_type": "vertical",
+            "reverse_direction": false,
+            "text": "just in",
+            "text_custom": false,
+            "text_font": "josefin_sans_n4",
+            "text_size": 60,
+            "text_size_mobile": 40,
+            "text_mr": 16,
+            "text_mr_mobile": 16,
+            "icon_size": 32,
+            "icon_size_mobile": 32,
+            "animate_icon": true,
+            "hide_icon": false,
+            "text_color": "#121212",
+            "icon_color": "#121212"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KbTeAJ",
+        "text_r4bQDK",
+        "button_FbEkPn",
+        "scrolling_KFDMxA"
+      ],
+      "name": "SS - Image With Text #14",
+      "settings": {
+        "body_gap": 48,
+        "body_gap_mobile": 0,
+        "content_horizontal_align": "start",
+        "content_horizontal_align_mobile": "start",
+        "content_vertical_align": "end",
+        "content_padding_vertical": 32,
+        "content_padding_vertical_mobile": 16,
+        "content_padding_horizontal": 32,
+        "content_padding_horizontal_mobile": 16,
+        "image_position": "right",
+        "image_position_mobile": "top",
+        "image_ratio": "square",
+        "image_ratio_mobile": "square",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 52,
+        "margin_bottom": 52,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
     "custom_liquid_4pN6Pa": {
       "type": "custom-liquid",
       "disabled": true,
@@ -474,7 +598,7 @@
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": false,
+        "remove_vertical_spacing": true,
         "remove_horizontal_spacing": false,
         "liquid": "<style>\n  /* ===== Section Finale Épurée ===== */\n  .pu-final-clean {\n    --pu-orange:#F78E1A; --pu-ink:#111; --pu-ink2:#2E2E2E; --pu-cream:#FFF9F3;\n    background: var(--pu-cream);\n    border-radius: 14px;\n    padding: 4rem 1.5rem;\n    text-align: center;\n    margin: 2.5rem 0;\n  }\n\n  /* Titre avec highlight */\n  .pu-final-clean .pu-title{\n    font-family:\"DIN Next\",sans-serif;\n    font-size: clamp(34px,6vw,58px);\n    font-weight: 800;\n    line-height: 1.15;\n    color: var(--pu-ink);\n    margin: 0 0 1.2rem 0;\n    display: inline-block;\n    position: relative;\n  }\n  .pu-final-clean .pu-hl{\n    color: var(--pu-orange);\n    position: relative; z-index:1;\n  }\n  .pu-final-clean .pu-hl::before{\n    content:\"\";\n    position:absolute; left:-.1em; bottom:.08em;\n    width:105%; height:.36em; border-radius:4px;\n    background: var(--pu-orange); opacity:.28; z-index:-1;\n  }\n  .pu-final-clean .pu-underline{\n    width:64px; height:4px; background:var(--pu-orange);\n    border-radius:3px; margin:0 auto 1.5rem;\n  }\n\n  /* Texte */\n  .pu-final-clean p{\n    max-width: 720px;\n    margin: 0 auto;\n    color: var(--pu-ink2);\n    font-size: clamp(16px,2.4vw,18px);\n    line-height: 1.6;\n  }\n\n  @media (max-width:640px){\n    .pu-final-clean{ padding: 3rem 1rem; }\n  }\n</style>\n\n<section class=\"pu-final-clean\">\n  <h2 class=\"pu-title\">\n    Offrez-leur une <span class=\"pu-hl\">seconde chance</span> ❤️\n  </h2>\n  <div class=\"pu-underline\"></div>\n\n  <p>\n    Pour eux, chaque jour compte. Avec un bracelet, vous ne portez pas seulement un bijou&nbsp;: \n    vous portez un espoir.\n  </p>\n</section>",
         "background": "",
@@ -485,6 +609,7 @@
   },
   "order": [
     "main",
+    "img_whith_text14_hRcN8a",
     "custom_liquid_4pN6Pa",
     "related-products",
     "media_with_text_ie6j3W",
