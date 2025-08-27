@@ -524,9 +524,8 @@
         },
         "item_AVXttU": {
           "type": "item",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/avis10.png",
+            "image": "shopify://shop_images/avis2_a864443b-7908-41bc-87eb-09f603e4c67b.jpg",
             "stretch_image": true,
             "link_text": "",
             "link_url": "",
