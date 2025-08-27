@@ -253,6 +253,19 @@
         "input_text_color": ""
       }
     },
+    "custom_liquid_8d9Tay": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n  /* ===== Section Constat / Problème ===== */\n  .pu-problem {\n    background: #ffffff;\n    padding: 2.75rem 1.25rem;\n  }\n\n  /* Kicker (petit bandeau au-dessus du titre) */\n  .pu-kicker {\n    display: inline-block;\n    font-size: .95rem;\n    font-weight: 700;\n    color: #6a6a6a;\n    background: #f5f5f5;\n    border: 1px solid #ececec;\n    padding: .4rem .7rem;\n    border-radius: 999px;\n    margin: 0 auto 1rem;\n  }\n\n  /* Titre harmonisé avec tes autres sections */\n  .pu-problem .din-title-wrapper{ text-align:center; margin:0 0 1rem 0; }\n  .pu-problem .din-title{\n    font-family:\"DIN Next\",sans-serif;\n    font-size: clamp(28px, 5vw, 40px);\n    font-weight:700;\n    line-height:1.2;\n    color:#111;\n    margin:0;\n    display:inline-block;\n    position:relative;\n  }\n  .pu-problem .din-title .highlight{\n    color:#F78E1A; position:relative; z-index:1;\n  }\n  .pu-problem .din-title .highlight::before{\n    content:''; position:absolute; left:-0.1em; bottom:0.05em;\n    width:105%; height:0.3em; background:#F78E1A; opacity:.3;\n    border-radius:3px; z-index:-1;\n  }\n  .pu-problem .din-underline{\n    width:50px; height:3px; background:#F78E1A; border-radius:2px;\n    margin:.8rem auto 0;\n  }\n\n  /* Texte */\n  .pu-problem .lead,\n  .pu-problem .sublead{\n    max-width: 900px;\n    margin: 0.75rem auto 0;\n    text-align: center;\n    color:#2b2b2b;\n  }\n  .pu-problem .lead{\n    font-size: clamp(16px, 2.6vw, 18px);\n    line-height: 1.65;\n  }\n  .pu-problem .sublead{\n    font-size: clamp(15px, 2.4vw, 17px);\n    line-height: 1.65;\n  }\n\n  @media (max-width:768px){\n    .pu-problem{ padding: 2.25rem 1rem; }\n  }\n</style>\n\n<section class=\"pu-problem\">\n  <div class=\"pu-kicker\">Chaque heure, 10 chiens sont abandonnés en France</div>\n\n  <div class=\"din-title-wrapper\">\n    <h2 class=\"din-title\">\n      Plus de <span class=\"highlight\">100&nbsp;000</span> par an…<br />\n      des vies brisées, des refuges saturés.\n    </h2>\n    <div class=\"din-underline\"></div>\n  </div>\n\n  <p class=\"lead\">\n    Sans famille, ces animaux se retrouvent livrés à eux-mêmes&nbsp;: pas de nourriture,\n    peu de soins, et souvent non stérilisés.\n  </p>\n\n  <p class=\"sublead\">\n    Les refuges, déjà saturés, n’ont pas assez de place ni de moyens pour accueillir tous ces oubliés.\n  </p>\n</section>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "custom_liquid_4pN6Pa": {
       "type": "custom-liquid",
       "disabled": true,
@@ -734,6 +747,7 @@
   },
   "order": [
     "main",
+    "custom_liquid_8d9Tay",
     "custom_liquid_4pN6Pa",
     "related-products",
     "media_with_text_ie6j3W",
