@@ -543,7 +543,7 @@
       ],
       "name": "Image link blocks",
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "block_size": "large",
         "subheading": "",
         "title": "",
