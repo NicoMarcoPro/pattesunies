@@ -296,7 +296,7 @@
         "image_VTqrrp": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/abandon.png",
+            "image": "shopify://shop_images/chiensspa.jpg",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center text-center",
@@ -318,6 +318,42 @@
       },
       "block_order": [
         "image_VTqrrp"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small"
+      }
+    },
+    "media_with_text_TBRb4C": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_rGkLb8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/100K.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_rGkLb8"
       ],
       "name": "Media with text",
       "settings": {
@@ -701,6 +737,7 @@
     "custom_liquid_4pN6Pa",
     "related-products",
     "media_with_text_ie6j3W",
+    "media_with_text_TBRb4C",
     "custom_liquid_8RVfLa",
     "custom_liquid_tBxQXm",
     "media_with_text_ngzCFG",
