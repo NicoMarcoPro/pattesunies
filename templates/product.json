@@ -318,6 +318,23 @@
         "spacing": "small"
       }
     },
+    "custom_liquid_tBxQXm": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "div {padding-bottom: -40px;}",
+        "div {padding-top: -40px;}"
+      ],
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n  .section-title {\n    font-family: \"DIN Next\", sans-serif;\n    font-size: clamp(26px, 5vw, 40px);\n    font-weight: 700;\n    line-height: 1.2;\n    color: #111;\n    margin: 0;\n    position: relative;\n    display: inline-block;\n  }\n  .section-title .highlight {\n    color: #F78E1A;\n    position: relative; z-index: 1;\n  }\n  .section-title .highlight::before {\n    content: '';\n    position: absolute;\n    left: -0.1em; bottom: 0.05em;\n    width: 105%; height: 0.3em;\n    background: #F78E1A; opacity: .3;\n    border-radius: 3px; z-index: -1;\n  }\n  .section-underline {\n    width: 50px; height: 3px; background: #F78E1A;\n    border-radius: 2px; margin: .8rem auto 1.5rem;\n  }\n  .impact-section {\n    background: #fffdfb;\n    padding: 2.5rem 1rem;\n    text-align: center;\n  }\n  .impact-desc {\n    font-size: 1rem;\n    line-height: 1.5;\n    color: #333;\n    max-width: 700px;\n    margin: 0 auto;\n  }\n</style>\n\n<section class=\"impact-section\">\n  <h2 class=\"section-title\">\n    100 000 <span class=\"highlight\">raisons d’agir</span>, une seule meute pour les sauver\n  </h2>\n  <div class=\"section-underline\"></div>\n  <p class=\"impact-desc\">\n    Chaque chien abandonné mérite une seconde chance.<br>\n    Ensemble, on peut changer leur destin.\n  </p>\n</section>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "media_with_text_ngzCFG": {
       "type": "media-with-text",
       "blocks": {
@@ -352,23 +369,6 @@
         "full_width": false,
         "alternate_media_position": false,
         "spacing": "small"
-      }
-    },
-    "custom_liquid_tBxQXm": {
-      "type": "custom-liquid",
-      "custom_css": [
-        "div {padding-bottom: -40px;}",
-        "div {padding-top: -40px;}"
-      ],
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<style>\n  .section-title {\n    font-family: \"DIN Next\", sans-serif;\n    font-size: clamp(26px, 5vw, 40px);\n    font-weight: 700;\n    line-height: 1.2;\n    color: #111;\n    margin: 0;\n    position: relative;\n    display: inline-block;\n  }\n  .section-title .highlight {\n    color: #F78E1A;\n    position: relative; z-index: 1;\n  }\n  .section-title .highlight::before {\n    content: '';\n    position: absolute;\n    left: -0.1em; bottom: 0.05em;\n    width: 105%; height: 0.3em;\n    background: #F78E1A; opacity: .3;\n    border-radius: 3px; z-index: -1;\n  }\n  .section-underline {\n    width: 50px; height: 3px; background: #F78E1A;\n    border-radius: 2px; margin: .8rem auto 1.5rem;\n  }\n  .impact-section {\n    background: #fffdfb;\n    padding: 2.5rem 1rem;\n    text-align: center;\n  }\n  .impact-desc {\n    font-size: 1rem;\n    line-height: 1.5;\n    color: #333;\n    max-width: 700px;\n    margin: 0 auto;\n  }\n</style>\n\n<section class=\"impact-section\">\n  <h2 class=\"section-title\">\n    100 000 <span class=\"highlight\">raisons d’agir</span>, une seule meute pour les sauver\n  </h2>\n  <div class=\"section-underline\"></div>\n  <p class=\"impact-desc\">\n    Chaque chien abandonné mérite une seconde chance.<br>\n    Ensemble, on peut changer leur destin.\n  </p>\n</section>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "custom_liquid_CFCdW7": {
@@ -528,8 +528,8 @@
     "custom_liquid_4pN6Pa",
     "related-products",
     "media_with_text_ie6j3W",
-    "media_with_text_ngzCFG",
     "custom_liquid_tBxQXm",
+    "media_with_text_ngzCFG",
     "custom_liquid_CFCdW7",
     "media_with_text_WBVLRN",
     "custom_liquid_c7P939",
