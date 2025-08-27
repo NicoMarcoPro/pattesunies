@@ -320,6 +320,10 @@
     },
     "custom_liquid_tBxQXm": {
       "type": "custom-liquid",
+      "custom_css": [
+        "div {padding-bottom: -40px;}",
+        "div {padding-top: -40px;}"
+      ],
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
