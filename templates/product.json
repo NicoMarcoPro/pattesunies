@@ -431,6 +431,7 @@
     },
     "custom_liquid_CFCdW7": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
