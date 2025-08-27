@@ -786,6 +786,27 @@
         "product_card_background": "",
         "product_card_text_color": ""
       }
+    },
+    "contact_NwNbax": {
+      "type": "contact",
+      "name": "Contact form",
+      "settings": {
+        "full_width": true,
+        "subheading": "Contact Us",
+        "title": "Do you have any question?",
+        "content": "",
+        "text_position": "center",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
     }
   },
   "order": [
@@ -808,6 +829,7 @@
     "multi_column_rPaee8",
     "custom_liquid_F4CU9f",
     "custom_liquid_3BQktN",
-    "featured_collection_8UwbKP"
+    "featured_collection_8UwbKP",
+    "contact_NwNbax"
   ]
 }
