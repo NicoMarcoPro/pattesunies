@@ -369,6 +369,21 @@
         "text_color": ""
       }
     },
+    "image_with_text_overlay_Pm49DT": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "media_with_text_TBRb4C": {
       "type": "media-with-text",
       "blocks": {
@@ -398,6 +413,7 @@
       "block_order": [
         "image_rGkLb8"
       ],
+      "disabled": true,
       "name": "Media with text",
       "settings": {
         "full_width": false,
@@ -770,6 +786,7 @@
     "media_with_text_ie6j3W",
     "image_with_text_overlay_EPhp4r",
     "custom_liquid_8RVfLa",
+    "image_with_text_overlay_Pm49DT",
     "media_with_text_TBRb4C",
     "custom_liquid_tBxQXm",
     "media_with_text_ngzCFG",
