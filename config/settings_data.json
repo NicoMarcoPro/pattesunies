@@ -77,7 +77,7 @@
           "button_color": "#f78e1a",
           "secondary_color": "#ffffff",
           "ternary_color": "#6a6a6a",
-          "button_icon": "question_mark",
+          "button_icon": "chat_bubble",
           "button_text": "no_text",
           "button_horizontal_position": "bottom_right",
           "button_vertical_position": "lowest",
