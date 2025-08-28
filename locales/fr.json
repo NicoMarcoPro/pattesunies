@@ -447,7 +447,8 @@
     },
     "checkout": {
       "general": {
-        "pay_now_button_label": "PASSER MA COMMANDE"
+        "pay_now_button_label": "PASSER MA COMMANDE",
+        "page_title": " ÉTAPE 3/3 Paiement"
       }
     }
   }
