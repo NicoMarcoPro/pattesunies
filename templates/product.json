@@ -282,6 +282,65 @@
         "input_text_color": ""
       }
     },
+    "logo_list_9bUceA": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_bxUhVK": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/logo_spa.png",
+            "logo_width": 90,
+            "link": ""
+          }
+        },
+        "logo_dLpdfw": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/logo30M.webp",
+            "logo_width": 90,
+            "link": ""
+          }
+        },
+        "logo_JaTngy": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/logo_don.png",
+            "logo_width": 90,
+            "link": ""
+          }
+        },
+        "logo_WqWWAk": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/aa_60e573c7-5634-49b2-b21d-6b84d0f7ff10.png",
+            "logo_width": 90,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_bxUhVK",
+        "logo_dLpdfw",
+        "logo_JaTngy",
+        "logo_WqWWAk"
+      ],
+      "name": "Logo list",
+      "settings": {
+        "full_width": false,
+        "stack_mobile": true,
+        "title": "Ensemble pour protéger les animaux ❤️",
+        "content": "",
+        "text_alignment": "center",
+        "items_per_row": 4,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "#ffffff",
+        "logo_item_border": ""
+      }
+    },
     "custom_liquid_8d9Tay": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -840,6 +899,7 @@
   },
   "order": [
     "main",
+    "logo_list_9bUceA",
     "custom_liquid_8d9Tay",
     "custom_liquid_4pN6Pa",
     "related-products",
