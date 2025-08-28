@@ -26,8 +26,9 @@
         },
         "liquid_LQRNEd": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
-            "liquid": "<style>\n  .impact-line{display:flex;gap:.6rem;align-items:center;margin:.6rem 0 1rem}\n  .impact-dot{width:10px;height:10px;border-radius:50%;background:#F78E1A;box-shadow:0 0 0 4px rgba(247,142,26,.15)}\n  .impact-text{font-weight:700;color:#111}\n  .impact-proof{color:#444}\n</style>\n<div class=\"impact-line\">\n  <span class=\"impact-dot\"></span>\n  <div>\n    <div class=\"impact-text\">1 bracelet = 1 repas offert 🐶</div>\n    <div class=\"impact-proof\">Dons publiés chaque mois</div>\n  </div>\n</div>"
+            "liquid": "<style>\n  .impact-line{\n    display:flex;\n    justify-content:center;\n    align-items:center;\n    gap:.6rem;\n    padding:.6rem;\n    background:#FFF9F3; /* léger fond */\n    border-radius:6px;\n    margin:1rem 0;\n  }\n  .impact-dot{\n    width:10px;\n    height:10px;\n    border-radius:50%;\n    background:#F78E1A;\n    box-shadow:0 0 0 4px rgba(247,142,26,.15);\n  }\n  .impact-text{\n    font-weight:700;\n    color:#111;\n  }\n  .impact-proof{\n    color:#444;\n    margin-left:.3rem;\n  }\n</style>\n\n<div class=\"impact-line\">\n  <span class=\"impact-dot\"></span>\n  <div>\n    <div class=\"impact-text\">1 bracelet = 1 repas offert 🐶</div>\n    <div class=\"impact-proof\">Dons publiés chaque mois</div>\n  </div>\n</div>"
           }
         },
         "badges": {
