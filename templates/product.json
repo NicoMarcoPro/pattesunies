@@ -446,6 +446,7 @@
     },
     "custom_liquid_8RVfLa": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": false,
@@ -455,6 +456,68 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "impact_text_T9RgC9": {
+      "type": "impact-text",
+      "blocks": {
+        "item_KJXdP9": {
+          "type": "item",
+          "settings": {
+            "title": "100%",
+            "subheading": "Solidaire",
+            "content": "<p>Chaque bracelet = 1 repas offert à un chien en refuge</p>",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "item_DgeBUi": {
+          "type": "item",
+          "settings": {
+            "title": "100%",
+            "subheading": "Authentique",
+            "content": "<p>Bracelets faits main avec des pierres semi-précieuses de qualité</p>",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "item_tEk8MH": {
+          "type": "item",
+          "settings": {
+            "title": "100%",
+            "subheading": "Confiance",
+            "content": "<p>Preuves de dons publiées chaque mois, transparence totale</p>",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_KJXdP9",
+        "item_DgeBUi",
+        "item_tEk8MH"
+      ],
+      "name": "Impact text",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
       }
     },
     "image_with_text_overlay_Pm49DT": {
@@ -906,6 +969,7 @@
     "media_with_text_ie6j3W",
     "image_with_text_overlay_EPhp4r",
     "custom_liquid_8RVfLa",
+    "impact_text_T9RgC9",
     "image_with_text_overlay_Pm49DT",
     "media_with_text_TBRb4C",
     "custom_liquid_h4aCNt",
