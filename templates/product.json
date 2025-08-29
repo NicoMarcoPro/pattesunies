@@ -610,6 +610,7 @@
     },
     "custom_liquid_8RVfLa": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": false,
