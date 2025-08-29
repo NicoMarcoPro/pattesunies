@@ -497,22 +497,13 @@
             "button": "",
             "url": ""
           }
-        },
-        "slide_3FDAFb": {
-          "type": "slide",
-          "settings": {
-            "title": "",
-            "button": "",
-            "url": ""
-          }
         }
       },
       "block_order": [
         "slide_q8Atz3",
         "slide_YMnUhP",
         "slide_NcF3hM",
-        "slide_NR68RL",
-        "slide_3FDAFb"
+        "slide_NR68RL"
       ],
       "name": "SS - Slider #2",
       "settings": {
