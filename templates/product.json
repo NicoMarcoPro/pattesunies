@@ -446,7 +446,6 @@
     },
     "custom_liquid_8RVfLa": {
       "type": "custom-liquid",
-      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": false,
@@ -456,6 +455,83 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "testimonials_8ehaF9": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_rbURMK": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/avis2_a864443b-7908-41bc-87eb-09f603e4c67b.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Sophie L.",
+            "title": "Très bonne qualité",
+            "content": "<p><em>Très surpris par la qualité du bracelet, les perles sont solides et tiennent bien. J’avais peur que ça fasse gadget, mais en réalité il est vraiment élégant. Je le porte tous les jours et il n’a pas bougé.</em></p>"
+          }
+        },
+        "testimonial_R9rMj7": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/avis8.png",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Mary U.",
+            "title": "Testimonial 2",
+            "content": "<p><em>J’ai commandé pour soutenir la cause animale, mais je ne m’attendais pas à ce que le bracelet soit aussi beau. La taille est parfaite, ajustable, et j’adore le porter en rappel que chaque achat aide un chien. Livraison un peu longue (10 jours) mais ça valait l’attente.</em></p>"
+          }
+        },
+        "testimonial_eR63ri": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/avis6.png",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Joshua A.",
+            "title": "Testimonial 3",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        },
+        "testimonial_fLaB6w": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/avis9.png",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "",
+            "title": "Testimonial",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_rbURMK",
+        "testimonial_R9rMj7",
+        "testimonial_eR63ri",
+        "testimonial_fLaB6w"
+      ],
+      "disabled": true,
+      "name": "Testimonials",
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": ""
       }
     },
     "impact_text_T9RgC9": {
@@ -503,10 +579,11 @@
         "item_DgeBUi",
         "item_tEk8MH"
       ],
+      "disabled": true,
       "name": "Impact text",
       "settings": {
         "full_width": true,
-        "stack_mobile": true,
+        "stack_mobile": false,
         "text_alignment": "center",
         "impact_text_style": "fill",
         "text_divider": "none",
@@ -969,6 +1046,7 @@
     "media_with_text_ie6j3W",
     "image_with_text_overlay_EPhp4r",
     "custom_liquid_8RVfLa",
+    "testimonials_8ehaF9",
     "impact_text_T9RgC9",
     "image_with_text_overlay_Pm49DT",
     "media_with_text_TBRb4C",
