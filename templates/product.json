@@ -459,6 +459,130 @@
         "overlay_opacity": 0
       }
     },
+    "ssslider_6FhxpB": {
+      "type": "ssslider",
+      "blocks": {
+        "slide_q8Atz3": {
+          "type": "slide",
+          "settings": {
+            "title": "",
+            "button": "",
+            "url": ""
+          }
+        },
+        "slide_YMnUhP": {
+          "type": "slide",
+          "settings": {
+            "title": "",
+            "button": "",
+            "url": ""
+          }
+        },
+        "slide_NcF3hM": {
+          "type": "slide",
+          "settings": {
+            "title": "",
+            "button": "",
+            "url": ""
+          }
+        },
+        "slide_NR68RL": {
+          "type": "slide",
+          "settings": {
+            "title": "",
+            "button": "",
+            "url": ""
+          }
+        },
+        "slide_3FDAFb": {
+          "type": "slide",
+          "settings": {
+            "title": "",
+            "button": "",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_q8Atz3",
+        "slide_YMnUhP",
+        "slide_NcF3hM",
+        "slide_NR68RL",
+        "slide_3FDAFb"
+      ],
+      "disabled": true,
+      "name": "SS - Slider #2",
+      "settings": {
+        "slider_view": 4,
+        "slider_view_mobile": 1.5,
+        "slider_rotate": 0,
+        "card_padding_vertical": 24,
+        "card_padding_vertical_mobile": 24,
+        "card_padding_horizontal": 40,
+        "card_padding_horizontal_mobile": 30,
+        "card_radius": 0,
+        "card_border_thickness": 0,
+        "card_shadow": true,
+        "card_ratio": "portrait",
+        "card_ratio_mobile": "portrait",
+        "card_overlay": 0.3,
+        "content_horizontal_position": "center",
+        "content_horizontal_position_mobile": "center",
+        "content_vertical_position": "end",
+        "content_vertical_position_mobile": "end",
+        "title_custom": false,
+        "title_font": "josefin_sans_n4",
+        "title_size": 28,
+        "title_size_mobile": 28,
+        "title_height": 100,
+        "button_custom": false,
+        "button_font": "josefin_sans_n4",
+        "button_size": 14,
+        "button_size_mobile": 14,
+        "button_height": 100,
+        "button_mt": 16,
+        "button_padding_vertical": 12,
+        "button_padding_horizontal": 20,
+        "button_radius": 0,
+        "button_border_thickness": 1,
+        "arrow_size": 50,
+        "arrow_size_mobile": 32,
+        "arrow_icon_size": 20,
+        "arrow_icon_size_mobile": 12,
+        "arrow_border_thickness": 0,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": true,
+        "card_border_color": "#000000",
+        "card_shadow_color": "#000000",
+        "card_overlay_color": "#000000",
+        "title_color": "#FFFFFF",
+        "button_color": "#FFFFFF",
+        "button_hover_color": "#000000",
+        "button_bg_color": "",
+        "button_bg_hover_color": "#ffffff",
+        "button_border_color": "#FFFFFF",
+        "button_border_hover_color": "#FFFFFF",
+        "arrow_color": "#000000",
+        "arrow_hover_color": "#FFFFFF",
+        "arrow_bg_color": "#FFFFFF",
+        "arrow_bg_hover_color": "#000000",
+        "arrow_border_color": "#000000",
+        "arrow_border_hover_color": "#454545",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
     "custom_liquid_8RVfLa": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -1060,6 +1184,7 @@
     "related-products",
     "media_with_text_ie6j3W",
     "image_with_text_overlay_EPhp4r",
+    "ssslider_6FhxpB",
     "custom_liquid_8RVfLa",
     "testimonials_8ehaF9",
     "impact_text_T9RgC9",
