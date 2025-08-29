@@ -1125,6 +1125,7 @@
     },
     "featured_collection_8UwbKP": {
       "type": "featured-collection",
+      "disabled": true,
       "name": "Featured collection",
       "settings": {
         "collection": "bracelets",
@@ -1151,6 +1152,7 @@
     },
     "contact_NwNbax": {
       "type": "contact",
+      "disabled": true,
       "name": "Contact form",
       "settings": {
         "full_width": true,
