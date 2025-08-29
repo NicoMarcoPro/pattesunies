@@ -472,15 +472,6 @@
             "url": ""
           }
         },
-        "slide_YMnUhP": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/chien2.jpg",
-            "title": "",
-            "button": "",
-            "url": ""
-          }
-        },
         "slide_NcF3hM": {
           "type": "slide",
           "settings": {
@@ -498,13 +489,22 @@
             "button": "",
             "url": ""
           }
+        },
+        "slide_YMnUhP": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/chien2.jpg",
+            "title": "",
+            "button": "",
+            "url": ""
+          }
         }
       },
       "block_order": [
         "slide_q8Atz3",
-        "slide_YMnUhP",
         "slide_NcF3hM",
-        "slide_NR68RL"
+        "slide_NR68RL",
+        "slide_YMnUhP"
       ],
       "name": "SS - Slider #2",
       "settings": {
