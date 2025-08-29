@@ -78,6 +78,12 @@
             "collapse_content": false
           }
         },
+        "liquid_FkVjbR": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"xs-stock\" role=\"status\" aria-live=\"polite\">\n  <span class=\"xs-dot\" aria-hidden=\"true\"></span>\n  <span class=\"xs-text\">Il ne reste plus <strong>que quelques unités en stock</strong></span>\n</div>\n\n<style>\n  .xs-stock{display:flex;align-items:center;gap:.55rem}\n  .xs-text{font:400 14px/1.35 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}\n  .xs-text strong{font-weight:700}\n\n  /* Pastille + anneau qui pulse */\n  .xs-dot{\n    position:relative;display:inline-block;width:18px;height:18px;border-radius:50%;\n    background:#2fb79f; box-shadow:inset 0 0 0 3px #b9e3dd;\n  }\n  .xs-dot::before{ /* cœur plein */\n    content:\"\";position:absolute;inset:4px;border-radius:50%;background:#2fb79f;\n    box-shadow:0 0 0 1px rgba(255,255,255,.6) inset;\n  }\n  .xs-dot::after{ /* onde pulsante */\n    content:\"\";position:absolute;inset:-6px;border-radius:50%;\n    border:3px solid rgba(47,183,159,.4);opacity:.9;\n    animation:xs-pulse 1.4s ease-out infinite;\n  }\n  @keyframes xs-pulse{\n    0%{transform:scale(.6);opacity:.9}\n    70%{transform:scale(1.35);opacity:0}\n    100%{transform:scale(1.35);opacity:0}\n  }\n  @media (prefers-reduced-motion: reduce){ .xs-dot::after{ animation:none } }\n</style>"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -252,6 +258,7 @@
         "rating",
         "payment_terms",
         "description",
+        "liquid_FkVjbR",
         "buy_buttons",
         "liquid_jeDeac",
         "liquid_cCKeFY",
