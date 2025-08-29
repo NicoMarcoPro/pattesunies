@@ -465,6 +465,7 @@
         "slide_q8Atz3": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/chien1.jpg",
             "title": "",
             "button": "",
             "url": ""
@@ -473,6 +474,7 @@
         "slide_YMnUhP": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/chien2.jpg",
             "title": "",
             "button": "",
             "url": ""
@@ -481,6 +483,7 @@
         "slide_NcF3hM": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/chien3.jpg",
             "title": "",
             "button": "",
             "url": ""
@@ -489,6 +492,7 @@
         "slide_NR68RL": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/chien4.jpg",
             "title": "",
             "button": "",
             "url": ""
@@ -510,7 +514,6 @@
         "slide_NR68RL",
         "slide_3FDAFb"
       ],
-      "disabled": true,
       "name": "SS - Slider #2",
       "settings": {
         "slider_view": 4,
@@ -525,7 +528,7 @@
         "card_shadow": true,
         "card_ratio": "portrait",
         "card_ratio_mobile": "portrait",
-        "card_overlay": 0.3,
+        "card_overlay": 0.1,
         "content_horizontal_position": "center",
         "content_horizontal_position_mobile": "center",
         "content_vertical_position": "end",
